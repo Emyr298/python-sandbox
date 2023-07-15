@@ -1,6 +1,6 @@
 import socket
 
-UDP_IP = "127.0.0.1"  # IP address to bind the socket
+UDP_IP = "0.0.0.0"  # IP address to bind the socket
 UDP_PORT = 12345  # Port number to bind the socket
 
 # Create a UDP socket
