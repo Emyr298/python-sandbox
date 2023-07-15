@@ -1,6 +1,6 @@
 import socket
 
-TCP_IP = "103.130.129.146"  # IP address of the server
+TCP_IP = "103.189.234.109"  # IP address of the server
 TCP_PORT = 12345  # Port number of the server
 MESSAGE = "Hello, TCP Server!"  # Message to send
 

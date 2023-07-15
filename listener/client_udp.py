@@ -1,6 +1,6 @@
 import socket
 
-UDP_IP = "103.130.129.146"  # IP address of the destination
+UDP_IP = "103.189.234.109"  # IP address of the destination
 UDP_PORT = 12345  # Port number of the destination
 
 message = "Hello, UDP!"  # Message to send
