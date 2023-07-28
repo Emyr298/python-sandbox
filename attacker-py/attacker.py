@@ -5,7 +5,7 @@ app = Flask(__name__)
 CORS(app)
 
 @app.route('/redirect')
-def get_route():
+def get_redirect():
     url = request.args.get('url', None)
     if url is None:
         url = request.headers.get('url')
@@ -15,7 +15,7 @@ def get_route():
     return redirect(url)
 
 @app.route('/redirect-custom')
-def get_route():
+def get_redirect_custom():
     return redirect('http://127.0.0.1:8080/flag/')
 
 if __name__ == '__main__':
