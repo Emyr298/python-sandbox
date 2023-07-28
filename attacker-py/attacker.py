@@ -14,6 +14,10 @@ def get_route():
     
     return redirect(url)
 
+@app.route('/redirect-custom')
+def get_route():
+    return redirect('http://127.0.0.1:8080/flag/')
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
     
