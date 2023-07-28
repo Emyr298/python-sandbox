@@ -16,6 +16,7 @@ def get_redirect():
 
 @app.route('/redirect-custom')
 def get_redirect_custom():
+    print(request.headers)
     return redirect('http://127.0.0.1:8080/flag/')
 
 if __name__ == '__main__':
